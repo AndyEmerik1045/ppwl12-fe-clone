@@ -3,28 +3,27 @@ import { Hero } from "../components/Hero";
 import { LogoBar } from "../components/LogoBar";
 import { FeaturesSection } from "../components/FeaturesSection";
 import { AssistantsSection } from "../components/AssistantsSection";
-import { QuoteSection } from "../components/QuoteSection";
-import { TestimonialsSection } from "../components/TestimonialsSection";
 import { WorkTogetherSection } from "../components/WorkTogetherSection";
+import { QuoteSection } from "../components/QuoteSection";
 import { SavingsCalculator } from "../components/SavingsCalculator";
+import { TestimonialsSection } from "../components/TestimonialsSection";
+import { TryForFreeSection } from "../components/TryForFreeSection";
 import { Footer } from "../components/Footer";
 
-export default function Page1() {
+export default function Home() {
   return (
-    <main className="min-h-screen bg-[#0f172a] text-white">
+    <main className="min-h-screen">
       <Header />
       <Hero />
-
-      {/* Tambahkan komponenmu di sini */}
       <LogoBar />
       <FeaturesSection />
       <AssistantsSection />
+      <WorkTogetherSection />
       <QuoteSection />
-      <TestimonialsSection/>
-      <WorkTogetherSection/>
-      <SavingsCalculator/>
+      <SavingsCalculator />
+      <TestimonialsSection />
+      <TryForFreeSection />
       <Footer />
-
     </main>
   );
 }
