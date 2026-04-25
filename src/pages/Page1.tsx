@@ -3,7 +3,6 @@ import { Hero } from "../components/Hero";
 import { LogoBar } from "../components/LogoBar";
 import { FeaturesSection } from "../components/FeaturesSection";
 import { AssistantsSection } from "../components/AssistantsSection";
-import { Footer } from "../components/Footer";
 import { QuoteSection } from "../components/QuoteSection";
 import { TestimonialsSection } from "../components/TestimonialsSection";
 import { WorkTogetherSection } from "../components/WorkTogetherSection";
