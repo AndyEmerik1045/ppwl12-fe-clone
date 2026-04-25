@@ -1,7 +1,11 @@
+import { Header } from '../components/Navbar'; // Sesuaikan nama fungsi di Navbar.tsx
+import { Hero } from '../components/Hero';
+
 export default function Page1() {
-    return (
-        <div className="h-[calc(100vh-4rem)] flex justify-center items-center">
-            <h1>Page 1</h1>
-        </div>
-    )
+  return (
+    <main className="min-h-screen bg-[#0f172a]">
+      <Header />
+      <Hero />
+    </main>
+  );
 }
