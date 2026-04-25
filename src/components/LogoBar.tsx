@@ -1,5 +1,3 @@
-"use client";
-
 const logos = [
   { name: "OpenAI", src: "https://ext.same-assets.com/4258207962/1683423291.svg" },
   { name: "Figma", src: "https://ext.same-assets.com/4258207962/1758362944.svg" },
