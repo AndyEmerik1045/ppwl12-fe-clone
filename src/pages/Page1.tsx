@@ -7,6 +7,7 @@ import { QuoteSection } from "../components/QuoteSection";
 import { TestimonialsSection } from "../components/TestimonialsSection";
 import { WorkTogetherSection } from "../components/WorkTogetherSection";
 import { SavingsCalculator } from "../components/SavingsCalculator";
+import { Footer } from "../components/Footer";
 
 export default function Page1() {
   return (
@@ -22,6 +23,7 @@ export default function Page1() {
       <TestimonialsSection/>
       <WorkTogetherSection/>
       <SavingsCalculator/>
+      <Footer />
 
     </main>
   );
