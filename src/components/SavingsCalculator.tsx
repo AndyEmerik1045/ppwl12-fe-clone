@@ -45,7 +45,7 @@ export function SavingsCalculator() {
             <p className="text-gray-600 mb-6">
               Bring all your tools and teams under one<br />roof. Calculate savings below.
             </p>
-            <Link href="#" className="text-[#0a85d1] font-medium hover:underline">
+            <Link to="#" className="text-[#0a85d1] font-medium hover:underline">
               See pricing plans →
             </Link>
           </div>
