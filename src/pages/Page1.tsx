@@ -18,7 +18,6 @@ export default function Page1() {
       <LogoBar />
       <FeaturesSection />
       <AssistantsSection />
-      <Footer />
       <QuoteSection />
       <TestimonialsSection/>
       <WorkTogetherSection/>
